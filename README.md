@@ -109,7 +109,7 @@ CASA <X>: make_mask(image='image_name.image',
 
 ### Radially Varying Line Widths
 
-With higher spatial resolutions it is possible to resolve the radially changing line width of emission lines. This manifests as a change in the width of the emission pattern as a function of radius. We assume that the radial profile is well described by a powerlaw,
+With higher spatial resolutions it is possible to resolve the radially changing line width of emission lines. This manifests as a change in the width of the emission pattern as a function of radius. We assume that the radial profile of the line width (here we are describing the Doppler parameter, so a factor of 1.665 times smaller than the FWHM, is well described by a powerlaw,
 
 ![alt text](https://latex.codecogs.com/gif.latex?\Delta&space;V&space;(r)&space;=&space;\Delta&space;V_{0}&space;\times&space;\left(&space;\frac{r}{1^{\prime\prime}}&space;\right)^{\Delta&space;V_q} "Equation 1")
 
@@ -128,4 +128,4 @@ CASA <X>: make_mask(image='image_name.image',
 
 ### Author
 
-Written by Richard Teague (richard.d.teague@cfa.harvard.edu), 2020.
+Written by Richard Teague (rteague@mit.edu), 2020.
